@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Designer & Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { primary: '#3AFF12', secondary: '#1a1a1a' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+     <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-[#0a0a0a] bg-opacity-95 border-b border-[#222]">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-primary font-['Pacifico'] text-2xl">Umiii</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-white hover:text-primary transition">Home</a>
+                <a href="#services" class="text-white hover:text-primary transition">Services</a>
+                <a href="#skills" class="text-white hover:text-primary transition">Skills</a>
+                <a href="#projects" class="text-white hover:text-primary transition">Projects</a>
+                <a href="#contact" class="text-white hover:text-primary transition">Contact</a>
+            </div>
+            <button class="md:hidden w-10 h-10 flex items-center justify-center">
+                <i class="ri-menu-line text-white text-2xl"></i>
+            </button>
+            <a href="#contact"
+                class="hidden md:block bg-primary text-black font-semibold px-6 py-2 !rounded-button whitespace-nowrap">Hire
+                Me</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-24 pb-16 overflow-hidden">
+        <div class="absolute top-0 right-0 text-4xl text-primary">*</div>
+        <div class="absolute bottom-20 left-10 text-5xl text-primary">*</div>
+        <div class="absolute top-40 right-20 text-3xl text-primary">*</div>
+        <div class="container mx-auto px-6">
+            <div id="mainFlexWalaDiv"
+                class="flex flex-col md:flex-row items-center w-full hero-gradient rounded-2xl overflow-hidden">
+                <div class="w-full md:w-1/2 p-6 md:p-8" id="homePart1">
+                    <div class="inline-flex items-center gap-2 bg-[#1a1a1a] rounded-full px-4 py-2 mb-6">
+                        <span class="w-3 h-3 bg-primary rounded-full"></span>
+                        <span class="text-sm font-medium">Hello, It's me</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">BUILDING SMART WEBSITES <span
+                            class="text-primary">&</span>
+                        AI-POWERED SYSTEMS</h1>
+                    <p class="text-gray-300 mb-8">I build intelligent solutions for businesses of all sizes,
+                        specializing in data-driven systems, automation tools, and AI-powered applications that solve
+                        real-world problems.
+
+                    </p>
+                    <div class="flex flex-wrap gap-4 mb-8">
+                        <a href="./images/mynewResume2 - Copy.pdf"
+                            class="bg-primary text-black font-semibold px-6 py-3 !rounded-button whitespace-nowrap">Download
+                            CV</a>
+                        <a href="#aboutSection"
+                            class="bg-transparent border border-white text-white font-semibold px-6 py-3 !rounded-button whitespace-nowrap hover:border-primary hover:text-primary transition">Learn
+                            More</a>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 text-center">
+                        <div class="bg-[#1a1a1a] p-2 rounded-lg  ">
+                            <a href="https://www.facebook.com/umair.jatt.9210256"> <i
+                                    class="ri-facebook-fill text-primary text-3xl "> </i></a>
+
+                        </div>
+                        <div class="bg-[#1a1a1a] p-2 rounded-lg">
+                            <a href="https://github.com/umiii-786" target="_blank">
+                                <i class="ri-github-fill text-primary text-3xl"></i>
+                            </a>
+
+                        </div>
+                        <div class="bg-[#1a1a1a] p-2 rounded-lg ">
+                            <a href="https://www.linkedin.com/in/muhammad-umair-649a43297/"> <i
+                                    class="ri-linkedin-fill text-primary text-3xl "></i></a>
+
+                        </div>
+                        <div class="bg-[#1a1a1a] p-2 rounded-lg ">
+                            <a href="https://www.instagram.com/umiiijatt_3355/"> <i
+                                    class="ri-instagram-line text-primary text-3xl "></i></a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-full md:w-1/2 p-4" id="homePart2">
+                    <div class="relative profileImageDiv">
+                        <img src="/images/mypic1rm 5.png" alt="UI/UX Designer"
+                            class="w-full h-auto rounded-lg object-cover">
+                        <div class="absolute -bottom-4 -right-4 bg-[#1a1a1a] p-3 rounded-lg">
+                            <div class="text-primary font-bold">Muhammad Umair</div>
+                            <div class="text-sm text-gray-300">BORN IN PAKISTAN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#0f0f0f] py-16 px-6" id="aboutSection">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- Left: Image or Illustration (optional) -->
+                <div class="md:w-1/2">
+                    <img src="images/imagerm3.png" alt="About Me" class="rounded-2xl shadow-lg w-full" />
+                </div>
+
+                <!-- Right: About Text -->
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+                        ABOUT <span class="text-primary">ME</span>
+                    </h2>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        I’m a dedicated and innovative <span class="text-primary font-medium">AI and Data
+                            Enthusiast</span> with a passion for turning raw data into intelligent solutions. My work
+                        revolves around building smart systems that leverage the power of artificial intelligence and
+                        statistical insights.
+                    </p>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        From applying <span class="text-primary">machine learning algorithms</span> and performing <span
+                            class="text-primary">exploratory data analysis</span> to building <span
+                            class="text-primary">AI-powered applications</span> using tools like Python, TensorFlow, and
+                        scikit-learn, I focus on delivering meaningful outcomes through data-driven thinking.
+                    </p>
+                    <a href="#skills"
+                        class="bg-primary text-black font-semibold px-6 py-3 rounded-button inline-block transition hover:opacity-90">Explore
+                        My Skills</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 relative">
+        <div class="absolute bottom-10 right-10 text-5xl text-primary">*</div>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">MY BEST QUALITY <span class="text-primary">SERVICE</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    I provide smart, AI-powered solutions — from predictive models to automation systems — tailored to
+                    solve real-world problems and drive results.
+                </p>
+
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <!-- Service Card 1 -->
+                <div class="bg-[#1a1a1a] p-6 rounded-lg transition-all duration-300 card-hover">
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#222] rounded-lg mb-4">
+                        <i class="ri-brain-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Predictive Modeling</h3>
+                    <p class="text-gray-400 mb-4">Build ML models that predict trends, behaviors, or outcomes with
+                        accuracy using real-world data.</p>
+                    <a href="#" class="text-primary inline-flex items-center">
+                        Read More <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-[#1a1a1a] p-6 rounded-lg transition-all duration-300 card-hover">
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#222] rounded-lg mb-4">
+                        <i class="ri-thumb-up-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Sentiment Analysis</h3>
+                    <p class="text-gray-400 mb-4">Extract opinions and emotions from customer reviews, social media, or
+                        feedback using NLP models.</p>
+                    <a href="#" class="text-primary inline-flex items-center">
+                        Read More <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-[#1a1a1a] p-6 rounded-lg transition-all duration-300 card-hover">
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#222] rounded-lg mb-4">
+                        <i class="ri-star-smile-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Recommendation Systems</h3>
+                    <p class="text-gray-400 mb-4">Deliver personalized user experiences with intelligent recommendation
+                        engines for products or content.</p>
+                    <a href="#" class="text-primary inline-flex items-center">
+                        Read More <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-[#1a1a1a] p-6 rounded-lg transition-all duration-300 card-hover">
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#222] rounded-lg mb-4">
+                        <i class="ri-robot-2-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Automation Systems</h3>
+                    <p class="text-gray-400 mb-4">Automate repetitive business processes with smart algorithms and
+                        AI-powered tools to save time and cost.</p>
+                    <a href="#" class="text-primary inline-flex items-center">
+                        Read More <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="bg-[#1a1a1a] p-6 rounded-lg transition-all duration-300 card-hover">
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#222] rounded-lg mb-4">
+                        <i class="ri-line-chart-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Data Analysis</h3>
+                    <p class="text-gray-400 mb-4">Analyze and visualize data to extract valuable insights and support
+                        data-driven decisions.</p>
+                    <a href="#" class="text-primary inline-flex items-center">
+                        Read More <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="bg-[#1a1a1a] p-6 rounded-lg transition-all duration-300 card-hover">
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#222] rounded-lg mb-4">
+                        <i class="ri-tools-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Custom ML Solutions</h3>
+                    <p class="text-gray-400 mb-4">Design and deploy machine learning pipelines tailored to your unique
+                        business needs and challenges.</p>
+                    <a href="#" class="text-primary inline-flex items-center">
+                        Read More <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-[#0d0d0d] relative">
+        <div class="absolute top-10 left-10 text-4xl text-primary">*</div>
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-16">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6">
+                        <div class="bg-[#1a1a1a] p-4 rounded-lg text-center">
+                            <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mx-auto mb-3">
+                                <i class="ri-code-line text-primary text-3xl"></i>
+                            </div>
+                            <h4 class="text-lg font-medium">Python</h4>
+                            <div class="progress-bar mt-2">
+                                <div class="progress-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-[#1a1a1a] p-4 rounded-lg text-center">
+                            <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mx-auto mb-3">
+                                <i class="ri-brain-line text-primary text-3xl"></i>
+                            </div>
+                            <h4 class="text-lg font-medium">Machine Learning</h4>
+                            <div class="progress-bar mt-2">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-[#1a1a1a] p-4 rounded-lg text-center">
+                            <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mx-auto mb-3">
+                                <i class="ri-function-line text-primary text-3xl"></i>
+                            </div>
+                            <h4 class="text-lg font-medium">Deep Learning</h4>
+                            <div class="progress-bar mt-2">
+                                <div class="progress-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-[#1a1a1a] p-4 rounded-lg text-center">
+                            <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mx-auto mb-3">
+                                <i class="ri-bar-chart-line text-primary text-3xl"></i>
+                            </div>
+                            <h4 class="text-lg font-medium">Data Analysis</h4>
+                            <div class="progress-bar mt-2">
+                                <div class="progress-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-[#1a1a1a] p-4 rounded-lg text-center">
+                            <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mx-auto mb-3">
+                                <i class="ri-cpu-line text-primary text-3xl"></i>
+                            </div>
+                            <h4 class="text-lg font-medium">TensorFlow</h4>
+                            <div class="progress-bar mt-2">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="bg-[#1a1a1a] p-4 rounded-lg text-center">
+                            <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mx-auto mb-3">
+                                <i class="ri-database-2-line text-primary text-3xl"></i>
+                            </div>
+                            <h4 class="text-lg font-medium">Pandas & NumPy</h4>
+                            <div class="progress-bar mt-2">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl font-bold mb-6">LET'S EXPLORE <span class="text-primary">AI SKILLS</span> AND
+                        <span class="text-primary">EXPERIENCE</span>
+                    </h2>
+                    <p class="text-gray-400 mb-6">With deep experience in AI development, I build intelligent solutions
+                        by leveraging machine learning, deep learning, and data-driven technologies to solve real-world
+                        problems.</p>
+                    <p class="text-gray-400 mb-8">From crafting data pipelines to training and deploying neural
+                        networks, I ensure robust and scalable AI applications powered by Python, TensorFlow, and modern
+                        ML techniques.</p>
+                    <button class="bg-primary text-black font-semibold px-6 py-3 !rounded-button whitespace-nowrap">View
+                        All Skills</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-16 bg-[#0d0d0d] relative">
+        <div class="absolute top-20 left-20 text-4xl text-primary">*</div>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">MY <span class="text-primary">CERTIFICATIONS</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Professional certifications that validate my expertise and
+                    commitment to continuous learning.</p>
+            </div>
+            <div class="relative">
+                <div id="certificates-carousel" class="overflow-hidden">
+                    <div id="certificates-track" class="flex transition-transform duration-300">
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="bg-[#1a1a1a] rounded-lg transition-all duration-300 card-hover h-full">
+                                <img src="images/AI Essential_pageimg.jpg" alt="Google UX Design Certificate"
+                                    class="w-full h-48 object-cover rounded-t-lg">
+                                <div class="p-6">
+                                    <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mb-4">
+                                        <i class="ri-award-line text-primary text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">Google AI Essential Course
+                                    </h3>
+                                    <p class="text-gray-400 mb-4">Certification in foundational AI concepts and
+                                        practical applications through Google’s AI Essentials course.</p>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-sm text-gray-400">Issued: October 9, 2024</span>
+                                        <a href="https://www.coursera.org/account/accomplishments/verify/GPM1UT8BEASW"
+                                            class="text-primary hover:underline">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="bg-[#1a1a1a] rounded-lg transition-all duration-300 card-hover h-full">
+                                <img src="images/Coursera Python-1.png" alt="AWS Certificate"
+                                    class="w-full h-48 object-cover rounded-t-lg">
+                                <div class="p-6">
+                                    <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mb-4">
+                                        <i class="ri-medal-line text-primary text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">Complete Python Course</h3>
+                                    <p class="text-gray-400 mb-4">Advanced certification in designing distributed
+                                        systems and applications on AWS.</p>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-sm text-gray-400">Issued: March 2024</span>
+                                        <a href="#" class="text-primary hover:underline">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="bg-[#1a1a1a] rounded-lg transition-all duration-300 card-hover h-full">
+                                <img src="images/EDa.jpg" alt="Meta Certificate"
+                                    class="w-full h-48 object-cover rounded-t-lg">
+                                <div class="p-6">
+                                    <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mb-4">
+                                        <i class="ri-graduation-cap-line text-primary text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">Exploratory Data Analysis Course</h3>
+                                    <p class="text-gray-400 mb-4">Certification in performing Exploratory Data Analysis
+                                        (EDA) to uncover patterns, detect anomalies, and extract insights from complex
+                                        datasets.</p>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-sm text-gray-400">Issued: AUG 14, 2024</span>
+                                        <a href="#" class="text-primary hover:underline">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="bg-[#1a1a1a] rounded-lg transition-all duration-300 card-hover h-full">
+                                <img src="images/HighTechCertificates.jpg" alt="Meta Certificate"
+                                    class="w-full h-48 object-cover rounded-t-lg">
+                                <div class="p-6">
+                                    <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mb-4">
+                                        <i class="ri-graduation-cap-line text-primary text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">Two Month Internship </h3>
+                                    <p class="text-gray-400 mb-4">Completed a two-month internship as a Web Developer,
+                                        gaining hands-on experience in building responsive websites and dynamic web
+                                        applications using modern technologies.</p>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-sm text-gray-400">Issued: June 2024 to July 2024</span>
+                                        <a href="#" class="text-primary hover:underline">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                            <div class="bg-[#1a1a1a] rounded-lg transition-all duration-300 card-hover h-full">
+                                <img src="/images/award .jpg" alt="Azure Certificate"
+                                    class="w-full h-48 object-cover rounded-t-lg">
+                                <div class="p-6">
+                                    <div class="w-16 h-16 flex items-center justify-center bg-[#222] rounded-full mb-4">
+                                        <i class="ri-cloud-line text-primary text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">Certificate of Securing First Position</h3>
+                                    <p class="text-gray-400 mb-4">Awarded a certificate for securing First Position,
+                                        recognizing outstanding academic excellence and consistent top-tier performance.
+                                    </p>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-sm text-gray-400">Issued: Sep 4 2024</span>
+                                        <a href="#" class="text-primary hover:underline">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="prev-cert"
+                    class="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-[#222] rounded-full text-white hover:bg-primary hover:text-black transition-all z-10">
+                    <i class="ri-arrow-left-s-line"></i>
+                </button>
+                <button id="next-cert"
+                    class="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-[#222] rounded-full text-white hover:bg-primary hover:text-black transition-all z-10">
+                    <i class="ri-arrow-right-s-line"></i>
+                </button>
+                <div class="flex justify-center mt-8 gap-2">
+                    <button class="w-3 h-3 rounded-full bg-[#222] cert-dot" data-index="0"></button>
+                    <button class="w-3 h-3 rounded-full bg-[#222] cert-dot" data-index="1"></button>
+                    <button class="w-3 h-3 rounded-full bg-[#222] cert-dot" data-index="2"></button>
+                    <button class="w-3 h-3 rounded-full bg-[#222] cert-dot" data-index="3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 relative">
+        <div class="absolute bottom-20 left-20 text-5xl text-primary">*</div>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">OUR FEATURES <span class="text-primary">PROJECTS</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Explore my portfolio of successful projects that showcase my
+                    skills in UI/UX design and development.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+                <!-- Project 1 -->
+                <div class="bg-[#1a1a1a] rounded-lg overflow-hidden transition-all duration-300 card-hover">
+                    <div class="relative">
+                        <img src="/images/FarmingProjectPic/mainpage.PNG" alt="Dashboard UI"
+                            class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-[#6f00ff] bg-opacity-20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Smart Farming Platform</h3>
+                        <p class="text-gray-400 mb-4">An AI-powered smart farming platform offering crop prediction,
+                            disease detection, soil analysis, and personalized farming assistance for improved
+                            agricultural productivity.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">TensorFlow</span>
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Scikit-learn</span>
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-[#1a1a1a] rounded-lg overflow-hidden transition-all duration-300 card-hover">
+                    <div class="relative">
+                        <img src="/images/Data Analysis Project/dashboardpic.png" alt="E-commerce App"
+                            class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-[#6f00ff] bg-opacity-20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">E-commerce Sales and Product Analysis Dashboard</h3>
+                        <p class="text-gray-400 mb-4">A comprehensive e-commerce analytics dashboard providing real-time
+                            sales insights, product performance analysis, order tracking, and business intelligence for
+                            data-driven decision making.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Excel</span>
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Python</span>
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-[#1a1a1a] rounded-lg overflow-hidden transition-all duration-300 card-hover">
+                    <div class="relative">
+                        <img src="/images/Data Analysis Project/happinessproject.jpg" alt="E-commerce App"
+                            class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-[#6f00ff] bg-opacity-20"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Country Happiness Prediction System</h3>
+                        <p class="text-gray-400 mb-4">An advanced machine learning platform that predicts country
+                            happiness scores using multiple socio-economic indicators including GDP, health, freedom,
+                            and social factors with comprehensive data visualization and trend analysis</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Python</span>
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Scikit-learn</span>
+                            <span class="bg-[#222] text-xs px-3 py-1 rounded-full">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <!-- <button class="bg-primary text-black font-semibold px-8 py-3 !rounded-button whitespace-nowrap"> -->
+                <!-- </button> -->
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 relative">
+        <!-- <div class="absolute bottom-10 left-10 text-5xl text-primary">*</div> -->
+        <div class="absolute top-20 right-20 text-4xl text-primary">*</div>
+        <div class="container mx-auto px-6" id="hireSection">
+            <div class="flex flex-col md:flex-row gap-6 md:gap-10">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6">GET IN TOUCH <span class="text-primary">TODAY</span></h2>
+                    <p class="text-gray-400 mb-8">Have a project in mind or want to discuss a potential collaboration?
+                        Feel free to reach out, and I'll get back to you as soon as possible.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-[#1a1a1a] rounded-lg shrink-0">
+                                <i class="ri-map-pin-line text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium mb-1">Location</h4>
+                                <p class="text-gray-400"> Jam sahb Road Nawabshah,Sindh Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-[#1a1a1a] rounded-lg shrink-0">
+                                <i class="ri-mail-line text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium mb-1">Email</h4>
+                                <p class="text-gray-400">umiii215020@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-[#1a1a1a] rounded-lg shrink-0">
+                                <i class="ri-phone-line text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-medium mb-1">Phone</h4>
+                                <p class="text-gray-400">(+92) 313-3300758</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 mt-8">
+                        <a href="#"
+                            class="w-10 h-10 flex items-center justify-center bg-[#1a1a1a] rounded-full hover:bg-primary hover:text-black transition-all">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 flex items-center justify-center bg-[#1a1a1a] rounded-full hover:bg-primary hover:text-black transition-all">
+                            <i class="ri-twitter-x-fill"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 flex items-center justify-center bg-[#1a1a1a] rounded-full hover:bg-primary hover:text-black transition-all">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 flex items-center justify-center bg-[#1a1a1a] rounded-full hover:bg-primary hover:text-black transition-all">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 flex items-center justify-center bg-[#1a1a1a] rounded-full hover:bg-primary hover:text-black transition-all">
+                            <i class="ri-dribbble-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-[#1a1a1a] p-4 md:p-8 rounded-lg">
+                        <h3 class="text-2xl font-semibold mb-6">LEAVE A MESSAGE</h3>
+                        <form action="https://formspree.io/f/mzzzywee" method="POST">
+                            <div class="mb-6">
+                                <label for="name" class="block text-gray-400 mb-2">Name</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full px-4 py-3 rounded bg-[#222] border-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="mb-6">
+                                <label for="email" class="block text-gray-400 mb-2">Email</label>
+                                <input type="email" name="email" id="email"
+                                    class="w-full px-4 py-3 rounded bg-[#222] border-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Your Email">
+                            </div>
+                            <div class="mb-6">
+                                <label for="subject" class="block text-gray-400 mb-2">Subject</label>
+                                <input type="text" name="subject" id="subject"
+                                    class="w-full px-4 py-3 rounded bg-[#222] border-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Subject">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-400 mb-2">Message</label>
+                                <textarea id="message" rows="4" name="message"
+                                    class="w-full px-4 py-3 rounded bg-[#222] border-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="bg-primary text-black font-semibold px-6 py-3 !rounded-button whitespace-nowrap w-full">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section -->
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-[#222]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <a href="#" class="text-primary font-['Pacifico'] text-2xl">Umiii</a>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400">© 2025 All Rights Reserved. Designed  <span
+                            class="text-primary">♥</span> by <a href="#" class="text-primary">Umiii</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu"
+        class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden opacity-0 transition-opacity duration-300">
+        <div class="h-full flex flex-col transform translate-x-full transition-transform duration-300">
+            <div class="flex justify-between items-center p-6 border-b border-[#222]">
+                <a href="#" class="text-primary font-['Pacifico'] text-2xl">Umiii</a>
+                <button id="close-menu" class="w-10 h-10 flex items-center justify-center">
+                    <i class="ri-close-line text-white text-2xl"></i>
+                </button>
+            </div>
+            <div class="flex-grow flex flex-col justify-center items-center space-y-8 p-6">
+                <a href="#home" class="text-white text-xl hover:text-primary transition">Home</a>
+                <a href="#services" class="text-white text-xl hover:text-primary transition">Services</a>
+                <a href="#skills" class="text-white text-xl hover:text-primary transition">Skills</a>
+                <a href="#projects" class="text-white text-xl hover:text-primary transition">Projects</a>
+                <!-- <a href="#testimonials" class="text-white text-xl hover:text-primary transition">Testimonials</a> -->
+                <a href="#contact" class="text-white text-xl hover:text-primary transition">Contact</a>
+                <button
+                    class="bg-primary text-black font-semibold px-8 py-3 !rounded-button whitespace-nowrap mt-4">Hire
+                    Me</button>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Project Detail Modal -->
+    <div id="project-modal" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden overflow-y-auto">
+        <div class="min-h-screen flex items-center justify-center p-2 md:p-4">
+            <div class="bg-[#1a1a1a] w-full max-w-4xl rounded-lg relative">
+                <button id="close-project-modal"
+                    class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center text-gray-400 hover:text-white">
+                    <i class="ri-close-line text-2xl"></i>
+                </button>
+                <div class="p-8">
+                    <div id="project-detail-content">
+                        <!-- Content will be dynamically inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
